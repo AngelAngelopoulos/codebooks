@@ -42,16 +42,16 @@ if __name__ == '__main__':
         cipher.append(key)
         mod_cipher.append(key + (key % 10))
 
-    #supercifreado (superencryption)
+    #supercifreado (*superencryption*)
     #cipher = mod_cipher
 
     print(cipher)
     print(mod_cipher)
 
-    #reversed (obsolete)
-    codebook = reverseCodeBook(codebook)
+    #reversed (*obsolete*)
+    #codebook = reverseCodeBook(codebook)
 
-    print(codebook)
+    #print(codebook)
 
     for i in cipher:
         try:
